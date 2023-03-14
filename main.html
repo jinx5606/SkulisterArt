@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dark Art</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<style>
+		body {
+			background-image: url('https://media.discordapp.net/attachments/1078442692272476252/1084718766421704764/KK_JinXed_bones_knotting_and_twisting_mixing_with_metal_horror__5cb71673-9b91-4c68-8e94-43e6ee0ca021.png?width=985&height=563');
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+    <div id="logo-container">
+      <img id="left-image" src="https://i.ibb.co/2d6NV3z/skull.png" alt="Left Image">  
+		<img id="main-logo" src="https://i.ibb.co/m919w01/sklogo.png" alt="Dark Art">
+    <img id="right-image" src="https://i.ibb.co/2d6NV3z/skull.png" alt="Right Image">
+  </div>
+        <button onclick="changeBackground(); toggleDiv('homeDiv', this); flashButton(this);">Home</button>
+        <button onclick="changeBackground(); toggleDiv('cgcDiv', this); flashButton(this);">Album Covers</button>
+        <button onclick="changeBackground(); toggleDiv('logos', this); flashButton(this);">Logos</button>
+        <button onclick="changeBackground(); toggleDiv('contact', this); flashButton(this);">Contact Us</button>
+        
+        <button id="checkout-btn" onclick="changeBackground(); toggleDiv('cart', this); flashButton(this);">Clear</button>
+
+        
+	</div>
+    <div id="container">
+        <div id="cart" style="display: none;">
+     
+          </div>
+        <div id="homeDiv" style="display: none;">
+            <h2>Greetings, fellow disciples of darkness!</h2>
+            <p>Welcome to my digital art store, where the shadows reign supreme and the blackest of metal bands come to find their album cover art and logos.</p>
+            <p>Prepare to be awed by the depths of my creativity as you browse through a vast collection of twisted and macabre designs that will send shivers down your spine. Let us join forces in our quest for musical blasphemy and eternal darkness.</p>
+            <p>Together, we shall unleash a fury of black metal upon the world that shall echo through the ages.</p>
+           </div>
+      
+      <div id="cgcDiv" style="display: none;">
+        <h2>Album Art</h2>
+        <div class="image-grid">
+            <div class="image-item">
+                <div class="image-content">
+                <img src="https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/335328893_223265063606398_1755866650066720024_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=rLx3hKXVRaUAX_oS2mJ&_nc_ht=scontent-ord5-2.xx&oh=00_AfCPY-fPBcmYaVYBfzNZsdF_xByVfTYjHrEK2N7qFIVbPw&oe=6413F01F">
+                <div class="description">
+                    <p>Introducing "Fractured Elegance" - a haunting masterpiece that will chill you to the bone. This album cover art exudes a sense of beautiful decay and showcases the twisted beauty that can only be found in the depths of darkness. With its shattered imagery and haunting color scheme, "Fractured Elegance" will take you on a journey through the broken and the damned. Dare to embrace the darkness and allow "Fractured Elegance" to adorn your next black metal masterpiece.</p>
+                  </div><br>
+                  <div id="thumbnail">
+
+                    <img src="https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/335328893_223265063606398_1755866650066720024_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=rLx3hKXVRaUAX_oS2mJ&_nc_ht=scontent-ord5-2.xx&oh=00_AfCPY-fPBcmYaVYBfzNZsdF_xByVfTYjHrEK2N7qFIVbPw&oe=6413F01F">
+ 
+
+                  </div>
+                  <p>Fractured Elegance</p>
+                  <div class="price">
+                    <p style="align-self: flex; flex-direction: column; text-align: right;">Price: $14.99</p>
+                  </div>
+                  </div>
+              </div>
+          <div class="image-item">
+            <div class="image-content">
+            <img src="https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/336142974_772402007430364_6147108022410796209_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=RJ8-iTzEGhYAX_zcHE-&_nc_ht=scontent-ord5-2.xx&oh=00_AfAzQgNbsZ38vwHkLEkFwInKUhRe9vtc1AQUEGvRwlYd4w&oe=641402C8">
+            <div class="description">
+                <p>Deep in the bowels of the abyss lies a wretched and twisted place, known only as the Abyssal Agony Asylum. The very air reeks of pain and suffering, and the tortured screams of the damned can be heard echoing throughout the halls. This album cover art captures the essence of that dark place, with its stark, haunting imagery and twisted, tortured forms. It will draw you in, and transport you to a world of agony and despair, where the only escape is through the music itself. Let the sounds of black metal guide you through the abyss, and let this artwork be your portal to the depths of darkness.</p>
+              </div>
+              <div id="thumbnail">
+                <img src="https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/336142974_772402007430364_6147108022410796209_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=RJ8-iTzEGhYAX_zcHE-&_nc_ht=scontent-ord5-2.xx&oh=00_AfAzQgNbsZ38vwHkLEkFwInKUhRe9vtc1AQUEGvRwlYd4w&oe=641402C8">
+              </div>
+
+              <p>Abyssal Agony Asylum</p>
+              <div class="price">
+                <p style="align-self: flex; flex-direction: column; text-align: right;">Price: $14.99</p>
+              </div>
+              </div>
+          </div>
+          <div class="image-item">
+            <div class="image-content">
+            <img src="https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/333539941_544915930957936_4190842040421954014_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=AAvqY8IzbgIAX93ScUs&_nc_ht=scontent-ord5-2.xx&oh=00_AfAELtXmdfnrIXFmSWJW2qlYz2NxClXMB6_rgvQcC4MGiw&oe=6413B08F">
+            <div class="description">
+                <p>Behold the infernal desecration! This album cover art captures the essence of your darkest and most blasphemous compositions. The blood-red sky, the hellish flames, and the twisted figures all depict the chaos and destruction that await the listener. Let this artwork be the gateway to your journey into the abyss of the underworld. Unleash the infernal power of your music and bring forth the apocalypse with 'Infernal Desecration'.</p>
+              </div>
+              <div id="thumbnail">
+                <img src="https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/333539941_544915930957936_4190842040421954014_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=AAvqY8IzbgIAX93ScUs&_nc_ht=scontent-ord5-2.xx&oh=00_AfAELtXmdfnrIXFmSWJW2qlYz2NxClXMB6_rgvQcC4MGiw&oe=6413B08F">
+              </div>
+              <p>Infernal Desecration</p>
+              <div class="price">
+                <p style="align-self: flex; flex-direction: column; text-align: right;">Price: $14.99</p>
+              </div>
+              </div>
+          </div>
+          <div class="image-item">
+            <div class="image-content">
+            <img src="https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/334960394_182898504474767_7189462910919526540_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=Uz8eR5TNt_8AX8h5cIW&_nc_ht=scontent-ord5-2.xx&oh=00_AfBBlydYmOugpi4yCfae2tkr1StTUP4KfburJi-SlwESbg&oe=64139FBA">
+            <div class="description">
+                <p>Enter the depths of the abyss, where torment reigns supreme. The unholy sounds of the damned echo through the caverns of darkness, beckoning you to enter the Abyssal Torment. This album cover art captures the essence of your infernal journey, with twisted and gnarled shapes clawing at your soul. Let the agonizing screams of the damned guide you towards your ultimate damnation.</p>
+              </div><br>
+              <div id="thumbnail">
+                <img src="https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/334960394_182898504474767_7189462910919526540_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=Uz8eR5TNt_8AX8h5cIW&_nc_ht=scontent-ord5-2.xx&oh=00_AfBBlydYmOugpi4yCfae2tkr1StTUP4KfburJi-SlwESbg&oe=64139FBA">
+              </div>
+              <p>Abyssal Torment</p>
+              <div class="price">
+                <p style="align-self: flex; flex-direction: column; text-align: right;">Price: $14.99</p>
+              </div>
+              </div>
+          </div>
+          <div class="image-item">
+            <div class="image-content">
+            <img src="https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/334970744_171501189016319_2761251112631756300_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=ast3elDiWy8AX_KDkkn&_nc_ht=scontent-ord5-1.xx&oh=00_AfA19WA7BvYa-5sjfSoMxiwvFXwNbhLtaxEboqGNl9b-mg&oe=64137207">
+            <div class="description">
+                <p>Enter the realm of darkness and seduction with 'Seduction of the Damned.' This hauntingly beautiful piece of art will lure you into a world of forbidden pleasures and wicked desires. The devilish details will captivate your senses, leaving you mesmerized by its alluring charm. Let your soul be consumed by the darkness as you gaze upon this seductive masterpiece.</p>
+              </div><br>
+              <div id="thumbnail">
+                <img src="https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/334970744_171501189016319_2761251112631756300_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=ast3elDiWy8AX_KDkkn&_nc_ht=scontent-ord5-1.xx&oh=00_AfA19WA7BvYa-5sjfSoMxiwvFXwNbhLtaxEboqGNl9b-mg&oe=64137207">
+              </div>
+              <p>Seduction of the Damned</p>
+              <div class="price">
+                <p style="align-self: flex; flex-direction: column; text-align: right;">Price: $14.99</p>
+              </div>
+              </div>
+          </div>
+          <div class="image-item">
+            <div class="image-content">
+            <img src="https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/335062375_195729336479656_7506599402206864990_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=85AFLtE5UT0AX9cj0jL&_nc_ht=scontent-ord5-2.xx&oh=00_AfCFg1xgLUllBgQp9lJxqI3GbMpGnChj9j059gbMhvqhlA&oe=6412A714">
+            <div class="description">
+                <p>Behold, the masterpiece of Crippling Agony! Witness the twisted and distorted imagery that will bring forth the darkest emotions hidden within your soul. Let the pain and suffering consume you, as you succumb to the overwhelming darkness that this art invokes. May this artwork serve as a gateway to the abyss, where your innermost fears and desires are brought to life. Embrace the agony, and let it guide you towards a new level of understanding and enlightenment.</p>
+              </div>
+              <div id="thumbnail">
+                <img src="https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/335062375_195729336479656_7506599402206864990_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=85AFLtE5UT0AX9cj0jL&_nc_ht=scontent-ord5-2.xx&oh=00_AfCFg1xgLUllBgQp9lJxqI3GbMpGnChj9j059gbMhvqhlA&oe=6412A714">
+              </div>
+              <p>Crippling Agony</p>
+              <div class="price">
+                <p style="align-self: flex; flex-direction: column; text-align: right;">Price: $14.99</p>
+              </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="logos" style="display: none;">
+        <h2>Logo Art</h2>
+        <div class="image-grid">
+          <div class="image-item">
+            <div class="image-content">
+              <img src="https://i.pinimg.com/474x/a1/29/e4/a129e4f9b1c94c58c9fe28b8268b670b.jpg">
+              <div class="description">
+                <p>Logos for you.</p>
+              </div>
+              <div class="price">
+                <p style="text-align: right;">Price: $4.99</p>
+              </div>
+            </div>
+            <div class="close-button">X</div>
+          </div>
+          <div class="image-item">
+            <div class="image-content">
+            <img src="https://i.pinimg.com/originals/cc/ef/b9/ccefb9eab2cd7166f8e2a9faec86faee.jpg">
+            <div class="description">
+              <p>Logos for you.</p>
+              </div>
+              <div class="price">
+                <p style="text-align: right;">Price: $4.99</p>
+              </div>
+              </div>
+          </div>
+          <div class="image-item">
+            <div class="image-content">
+            <img src="https://i.pinimg.com/originals/d5/68/67/d5686700492a96ba90f69db528addcb8.jpg">
+            <div class="description">
+              <p>Logos for you.</p>
+              </div>
+              <div class="price">
+                <p style="text-align: right;">Price: $4.99</p>
+              </div>
+              </div>
+          </div>
+          <div class="image-item">
+            <div class="image-content">
+            <img src="https://cdna.artstation.com/p/assets/images/images/046/034/104/large/dex-sentence-200.jpg?1644157547">
+            <div class="description">
+              <p>Logos for you.</p>
+              </div>
+              <div class="price">
+                <p style="text-align: right;">Price: $4.99</p>
+              </div>
+              </div>
+          </div>
+          <div class="image-item">
+            <div class="image-content">
+            <img src="https://www.shutterstock.com/image-vector/dismembered-torture-death-metal-band-600w-2170100501.jpg">
+            <div class="description">
+              <p>Logos for you.</p>
+              </div>
+              <div class="price">
+                <p style="text-align: right;">Price: $4.99</p>
+              </div>
+              </div>
+          </div>
+          <div class="image-item">
+            <div class="image-content">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO7stzRt619iPuIW5b7opevyLEQliBSkUhM0q2DhTbXhacRy4oKJAf4_ZpusDugvpUKFE&usqp=CAU">
+            <div class="description">
+              <p>Logos for you.</p>
+              </div>
+              <div class="price">
+                <p style="text-align: right;">Price: $4.99</p>
+              </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact" style="display: none;">Thank you for your interest in our products and services. We are always happy to hear from our black metal brethren 
+        and are dedicated to providing exceptional support. If you have any questions, concerns, or feedback, please don't hesitate to contact us using 
+        the information below. Our team will get back to you as soon as possible to assist you in any way we can. We look forward to spreading the darkness together.
+        <br>
+        <br>
+        Contact us at:<br><br>
+        <span>Instagram: @example_instagram</span><br>
+        <span>Facebook: @example_facebook</span><br>
+        <span>Email: ex@example.com</span>
+
+        </div>
+
+      </div>
+      <div id="footer">
+        Est: 1998. For a focus on detail and quality: Contact us to inquire about making your own website ~ IT Crowd
+      </div>
+	<script src="script.js"></script>
+</body>
+</html>
